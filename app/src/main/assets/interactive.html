@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>test</title>
+</head>
+<body>
+    <script>
+        window.onload = function (){
+            window.aclicks = function (_this) {
+                _this.style.width='400px';
+                myBridge.helloword("你好，我是来自网页端的问候！");
+            }
+        }
+
+    </script>
+    <button id="btn" onclick="aclicks(this)"  style="width:200px;heigth:100px">点我</button>
+
+</body>
+</html>
